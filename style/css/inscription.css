@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.regForm {
+  background-color: #F0FFF0 ;
+  margin: 0px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 50%;
+  min-width: 300px;
+  border-radius:10px;
+
+}
+.box{
+  position: relative;
+ 
+  
+
+}
+.regForm select{
+  background: #8FBC8F;
+  color:black;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  
+ 
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,.5);
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+
+}
+
+.error{
+   margin: 10px 0px;
+    padding:12px;
+    color: #D8000C;
+    background-color: #FFD2D2;
+    }
+h1 {
+  text-align: center;  
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+input.invalid {
+  background-color: #ffdddd;
+}
+ 
+.tab {
+  display: none;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+#prevBtn {
+  background-color: #bbbbbb;
+}
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+.step.active {
+  opacity: 1;
+}
+.step.finish {
+  background-color: #4CAF50;

@@ -1,0 +1,98 @@
+ body { padding-top: 50px; }
+/*end*/
+ P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+ table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    
+    .row.content {min-height:600px}
+    
+   
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+   
+  
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+.table > tbody > tr > td{
+    padding: 5px;
+    vertical-align: middle;
+  
+}
+
+.button {
+  
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+  
+}
+
+.button-blue {background-color: #0000FF;} /* Blue */
+.button-red {background-color: #FF0000;} 
+.button-indianred {background-color: indianred;}
+/* Red */ 
+.button-green {background-color: #008000;} 
+/*Green */
+.button-purple  {background-color: purple;} /*purple  */
+.button-pink {background-color:salmon;}
+.custom-alert {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 6px;
+    margin: 2px;
+    background:salmon ;
+    border: 1px solid transparent;
+    border-radius: unset;
+
+}
+
+
+.mt-12{
+    margin-top: 12px;
+}
+ .tlogo{
+        height:42px;
+        width:42px;
+        margin-top: 5px;
+    }
